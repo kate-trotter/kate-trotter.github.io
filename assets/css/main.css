@@ -2244,6 +2244,23 @@ input, select, textarea {
 			margin: 0 auto;
 		}
 
+		#intro p.style4 {
+			font-weight: 700;
+			color: #fff;
+			/* border-radius: 0.35em; */
+			/* box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25); */
+			font-size: 1.75em;
+			letter-spacing: 0.075em;
+			line-height: 1.35em;
+			padding: 1em 0 1em 0;
+			margin-bottom: 1em;
+		}
+
+			#intro p.style4 a {
+				color: inherit;
+				text-decoration: none;
+			}
+
 /* Features */
 
 	#features header.style1 {
@@ -2462,6 +2479,10 @@ input, select, textarea {
 
 				#intro p.style2 {
 					font-size: 2.25em;
+				}
+
+				#intro p.style4 {
+					font-size: 1.25em;
 				}
 
 		/* Footer */
@@ -2916,6 +2937,13 @@ input, select, textarea {
 
 				#intro p.style2 {
 					font-size: 1.5em;
+					letter-spacing: 0.05em;
+					line-height: 1.25em;
+					padding: 1.25em;
+				}
+
+				#intro p.style4 {
+					font-size: 1.0em;
 					letter-spacing: 0.05em;
 					line-height: 1.25em;
 					padding: 1.25em;
