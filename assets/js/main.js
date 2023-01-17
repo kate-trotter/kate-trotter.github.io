@@ -8,6 +8,7 @@
 
 	var	$window = $(window),
 		$body = $('body');
+		$nav = $('#nav');
 
 	// Breakpoints.
 		breakpoints({
@@ -22,6 +23,13 @@
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
+		});
+
+
+	// Scrolly.
+		$('#nav a, .scrolly').scrolly({
+			speed: 1000,
+			offset: function() { return $nav.height(); }
 		});
 
 	// Dropdowns.
