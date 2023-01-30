@@ -2114,6 +2114,11 @@ input, select, textarea {
 		padding: 0;
 	}
 
+		.nothomepage #header {
+			height: 9em;
+			background: url("../../images/banner_old.jpg") center center;
+		}
+
 		#header:before {
 			content: '';
 			position: absolute;
