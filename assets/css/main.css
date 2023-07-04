@@ -7,6 +7,21 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.inline-svg {
+  display: inline-block;
+  vertical-align: middle;
+  width: 3em;
+  height: 3em;
+	position: relative;
+	left: -70px;
+}
+
+h3 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
 #gallery {
 	line-height:0;
 	-webkit-column-count:5; /* split it into 5 columns */
@@ -1947,9 +1962,10 @@ input, select, textarea {
 			font-weight: 400;
 		}
 
-		.icon:before {
-			line-height: inherit;
-			font-size: 1.25em;
+		.custom-icon svg {
+			width: 100%;
+			height: 100%;
+			fill: currentColor;
 		}
 
 		.icon > .label {
