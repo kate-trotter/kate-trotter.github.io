@@ -1886,6 +1886,52 @@ input, select, textarea {
 			text-align: center;
 		}
 
+/* Gallery Nav Selection */
+
+	.nav-wrapper {
+		position: relative;
+		padding: 0em 0 9em 0;
+	}
+
+	.gallery-navselect {
+		max-width: 25em;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		top: 0.75em;
+	}
+
+		.gallery-navselect section {
+			padding-top: 1em;
+			padding-left: 1em;
+			position: relative;
+			text-align: center;
+		}
+
+		@media screen and (min-width: 981px) {
+
+			.feature-list > .row > :nth-child(-n + 2) > section {
+				border-top: 0;
+				padding-top: 0;
+			}
+
+		}
+
+		.gallery-navselect img {
+			border-radius: 7.5%;
+        	display: block;
+        	margin: 0 auto;
+			width: 250px; /* width of container */
+			height: 250px; /* height of container */
+			object-fit: cover;
+ 			object-position: 25% 25%; 	
+			
+		}
+
+		.gallery-navselect button {
+			vertical-align: center;
+		}
+
 /* Feature List */
 
 	.feature-list {
@@ -2146,7 +2192,7 @@ input, select, textarea {
 		}
 
 		.homepage #header {
-			height: 35em;
+			height: 25em;
 		}
 
 /* Logo */
