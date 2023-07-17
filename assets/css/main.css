@@ -1900,7 +1900,8 @@ input, select, textarea {
 		.button.galleryselect {
 			background: #e97770 url("images/overlay.png");
 			color: #fff;
-			width: 220px
+			width: 220px;
+			font-size: small;
 		}
 
 			input[type="button"].galleryselect:hover,
