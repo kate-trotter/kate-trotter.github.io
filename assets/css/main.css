@@ -1893,6 +1893,32 @@ input, select, textarea {
 		padding: 0em 0 9em 0;
 	}
 
+		input[type="button"].galleryselect,
+		input[type="submit"].galleryselect,
+		input[type="reset"].galleryselect,
+		button.galleryselect,
+		.button.galleryselect {
+			background: #e97770 url("images/overlay.png");
+			color: #fff;
+			width: 220px
+		}
+
+			input[type="button"].galleryselect:hover,
+			input[type="submit"].galleryselect:hover,
+			input[type="reset"].galleryselect:hover,
+			button.galleryselect:hover,
+			.button.galleryselect:hover {
+				background-color: #f98780;
+			}
+
+			input[type="button"].galleryselect:active,
+			input[type="submit"].galleryselect:active,
+			input[type="reset"].galleryselect:active,
+			button.galleryselect:active,
+			.button.galleryselect:active {
+				background-color: #d96760;
+			}
+
 	.gallery-navselect {
 		max-width: 50em;
 		margin-left: auto;
